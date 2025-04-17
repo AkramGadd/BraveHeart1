@@ -397,6 +397,7 @@
 "Assets/Scripts/AnimationStrings.cs"
 "Assets/Scripts/ParallexEffect.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/TouchingDirections.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -22572,9 +22572,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5735018635820484359, guid: 2910f5607d2ef0a4c8160051e0fcc5ea, type: 3}
+      propertyPath: airWalkSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7140152578846226573, guid: 2910f5607d2ef0a4c8160051e0fcc5ea, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604357180980146474, guid: 2910f5607d2ef0a4c8160051e0fcc5ea, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604357180980146474, guid: 2910f5607d2ef0a4c8160051e0fcc5ea, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_ActionId
+      value: bdf25235-0feb-440e-976c-fd2106508bf7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604357180980146474, guid: 2910f5607d2ef0a4c8160051e0fcc5ea, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_ActionName
+      value: Player/Jump[/Keyboard/w]
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604357180980146474, guid: 2910f5607d2ef0a4c8160051e0fcc5ea, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604357180980146474, guid: 2910f5607d2ef0a4c8160051e0fcc5ea, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604357180980146474, guid: 2910f5607d2ef0a4c8160051e0fcc5ea, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
