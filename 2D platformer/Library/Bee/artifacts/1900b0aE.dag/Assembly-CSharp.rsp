@@ -395,6 +395,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AnimationStrings.cs"
+"Assets/Scripts/DetectionZone.cs"
+"Assets/Scripts/Knight.cs"
 "Assets/Scripts/ParallexEffect.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/StateMachine/SetBoolBehaviour.cs"
