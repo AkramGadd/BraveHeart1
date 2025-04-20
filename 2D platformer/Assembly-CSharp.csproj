@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\ParallexEffect.cs" />
     <Compile Include="Assets\Scripts\TouchingDirections.cs" />
     <Compile Include="Assets\Scripts\DetectionZone.cs" />
+    <Compile Include="Assets\SetFloatBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\kyrises-rpg-icon-pack\readme.txt" />

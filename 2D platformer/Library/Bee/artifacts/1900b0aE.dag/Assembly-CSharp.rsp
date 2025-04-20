@@ -404,6 +404,7 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/StateMachine/SetBoolBehaviour.cs"
 "Assets/Scripts/TouchingDirections.cs"
+"Assets/SetFloatBehaviour.cs"
 -langversion:9.0
 /deterministic
 /optimize+
