@@ -22638,6 +22638,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4580715410689121230, guid: 2910f5607d2ef0a4c8160051e0fcc5ea, type: 3}
   m_PrefabInstance: {fileID: 4077999397768156524}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1902109021 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7735833878505171027, guid: 662522852657b1c4ea90d23d103c2e98, type: 3}
+  m_PrefabInstance: {fileID: 8542885298996019734}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9afb2487874885e46ac2d475d5e8da0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4077999397768156524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22722,6 +22733,10 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7854275250097863019, guid: 2910f5607d2ef0a4c8160051e0fcc5ea, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22782,6 +22797,30 @@ PrefabInstance:
     - target: {fileID: 5333291469410403121, guid: 662522852657b1c4ea90d23d103c2e98, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5348148288880739607, guid: 662522852657b1c4ea90d23d103c2e98, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5348148288880739607, guid: 662522852657b1c4ea90d23d103c2e98, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1902109021}
+    - target: {fileID: 5348148288880739607, guid: 662522852657b1c4ea90d23d103c2e98, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5348148288880739607, guid: 662522852657b1c4ea90d23d103c2e98, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnHit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5348148288880739607, guid: 662522852657b1c4ea90d23d103c2e98, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Knight, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5348148288880739607, guid: 662522852657b1c4ea90d23d103c2e98, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7566748367673320574, guid: 662522852657b1c4ea90d23d103c2e98, type: 3}
       propertyPath: m_Name

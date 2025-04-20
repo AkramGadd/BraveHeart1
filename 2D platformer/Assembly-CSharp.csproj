@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Damageable.cs" />
+    <Compile Include="Assets\Attack.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\StateMachine\SetBoolBehaviour.cs" />
     <Compile Include="Assets\FadeRemoveBehaviour.cs" />
