@@ -404,6 +404,7 @@
 "Assets/Scripts/DetectionZone.cs"
 "Assets/Scripts/Events/CharacterEvents.cs"
 "Assets/Scripts/FadeRemoveBehaviour.cs"
+"Assets/Scripts/HealthPickup.cs"
 "Assets/Scripts/HealthText.cs"
 "Assets/Scripts/Knight.cs"
 "Assets/Scripts/ParallexEffect.cs"
