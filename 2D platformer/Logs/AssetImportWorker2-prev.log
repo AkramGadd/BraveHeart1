@@ -1,0 +1,1492 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.59f1 (630718f645a5) revision 6489880'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16021 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.59f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/victory tech/Desktop/Mobile App/2D platformer
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50260
+Successfully changed project path to: C:/Users/victory tech/Desktop/Mobile App/2D platformer
+C:/Users/victory tech/Desktop/Mobile App/2D platformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21332]  Target information:
+
+Player connection [21332]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4205756504 [EditorId] 4205756504 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TLL8EG5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21332]  * "[IP] 10.1.80.140 [Port] 0 [Flags] 2 [Guid] 4205756504 [EditorId] 4205756504 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TLL8EG5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21332] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21332] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 58.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.59f1 (630718f645a5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/victory tech/Desktop/Mobile App/2D platformer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.7270
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.061360 seconds.
+- Loaded All Assemblies, in  1.685 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 824 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.227 seconds
+Domain Reload Profiling: 3903ms
+	BeginReloadAssembly (454ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (158ms)
+	RebuildNativeTypeToScriptingClass (55ms)
+	initialDomainReloadingComplete (310ms)
+	LoadAllAssembliesAndSetupDomain (698ms)
+		LoadAssemblies (448ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (686ms)
+			TypeCache.Refresh (680ms)
+				TypeCache.ScanAssembly (623ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2228ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2038ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1285ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (180ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.066 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.251 seconds
+Domain Reload Profiling: 6307ms
+	BeginReloadAssembly (633ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (146ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (187ms)
+	LoadAllAssembliesAndSetupDomain (2040ms)
+		LoadAssemblies (1418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1014ms)
+			TypeCache.Refresh (808ms)
+				TypeCache.ScanAssembly (751ms)
+			ScanForSourceGeneratedMonoScriptInfo (153ms)
+			ResolveRequiredComponents (50ms)
+	FinalizeReload (3253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2413ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (117ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (241ms)
+			ProcessInitializeOnLoadAttributes (1677ms)
+			ProcessInitializeOnLoadMethodAttributes (340ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 24.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6227 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.0 MB). Loaded Objects now: 6684.
+Memory consumption went from 236.0 MB to 235.0 MB.
+Total: 13.632100 ms (FindLiveObjects: 0.931400 ms CreateObjectMapping: 0.589200 ms MarkObjects: 10.935100 ms  DeleteObjects: 1.174300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 411.480751 seconds.
+  path: Assets/Presets
+  artifactKey: Guid(5a31cbbc8fae87a4f84757da2ca3639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets using Guid(5a31cbbc8fae87a4f84757da2ca3639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e413d4c92405285fc35a50b942cb3c8') in 0.008514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.081448 seconds.
+  path: Assets/Characters/Player/HeroKnight_0.prefab
+  artifactKey: Guid(f13ed44d14a37a547ba28429f5d792f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Player/HeroKnight_0.prefab using Guid(f13ed44d14a37a547ba28429f5d792f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '722fcf9448031a84f87edf2cb942e183') in 0.813198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 7.536487 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/helmet_02e.png
+  artifactKey: Guid(085cba7b6a806934684f19eee1eb8c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/helmet_02e.png using Guid(085cba7b6a806934684f19eee1eb8c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e81f65ce234cb1f577dba0f94622994') in 0.112050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 70.206493 seconds.
+  path: Assets/Scenes/GameplayScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameplayScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9de4d74e6024b69fe5391d9b42a6a975') in 0.002722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 311.391986 seconds.
+  path: Assets/Characters/Player/AC_Tank.controller
+  artifactKey: Guid(dca5c57cdd371884c8604009e68c4452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Player/AC_Tank.controller using Guid(dca5c57cdd371884c8604009e68c4452) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4457f9195f70b46e79143341282a5afd') in 0.241524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 254.998611 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-hurt-00.png
+  artifactKey: Guid(a7be73c95d707c04394664b7dc2db58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-hurt-00.png using Guid(a7be73c95d707c04394664b7dc2db58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1235e4be5ab7869f1160f1edf932f04a') in 0.098753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-idle-02.png
+  artifactKey: Guid(08e837962192f954bb77dde1540b7dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-idle-02.png using Guid(08e837962192f954bb77dde1540b7dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3bd1934501d414f47196683ca2d3e543') in 0.058124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-idle-2-02.png
+  artifactKey: Guid(72b3b7e16efa85347946a3e3bbed40b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-idle-2-02.png using Guid(72b3b7e16efa85347946a3e3bbed40b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '12438cf8705fd190e68c145b353ef42f') in 0.076958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-idle-2-00.png
+  artifactKey: Guid(275acf658205db5419be04063b207f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-idle-2-00.png using Guid(275acf658205db5419be04063b207f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '38ff7389a59b68cb691d47efdb80761c') in 0.084596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.558662 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-idle-2-03.png
+  artifactKey: Guid(f3530278f5219624c9b41f870001b5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-idle-2-03.png using Guid(f3530278f5219624c9b41f870001b5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3c80ec58c973cab8388238866c48348') in 0.077707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-items-02.png
+  artifactKey: Guid(d616c58fdff91da46943bb2cccc06832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-items-02.png using Guid(d616c58fdff91da46943bb2cccc06832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0b9876c5f5b0054c3b6e4688c5bbefce') in 0.055062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-jump-00.png
+  artifactKey: Guid(ca5b518196cc3ce4dbb8685c94be8097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-jump-00.png using Guid(ca5b518196cc3ce4dbb8685c94be8097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7a47e010cdd2342dbbafbbe10f44302') in 0.084678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.220366 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-jump-01.png
+  artifactKey: Guid(e42260709d15bad4da9d151ac04dcedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-jump-01.png using Guid(e42260709d15bad4da9d151ac04dcedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd3272252b4c5841c7eef9f0fd4a08d31') in 0.074015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-jump-03.png
+  artifactKey: Guid(1a0a20f830066204c8d07e3865e95b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-jump-03.png using Guid(1a0a20f830066204c8d07e3865e95b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a9b7a45e33e4ad6060cc78b8eaaf7e6c') in 0.072962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-kick-00.png
+  artifactKey: Guid(3206e9a0fc8e2a447a5b7c387ad3b875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-kick-00.png using Guid(3206e9a0fc8e2a447a5b7c387ad3b875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6f7a068182226632158b6eea821af187') in 0.046728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-knock-dwn-00.png
+  artifactKey: Guid(6f953c8d613275c4cb5620c07380696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-knock-dwn-00.png using Guid(6f953c8d613275c4cb5620c07380696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '80ec9505a7dcfe05334b4e90c7dac890') in 0.052158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-kick-04.png
+  artifactKey: Guid(6bf7ce4b93bd8fc42916f85d2fa6f19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-kick-04.png using Guid(6bf7ce4b93bd8fc42916f85d2fa6f19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '732b4a014351640105eaaf09f94d9682') in 0.066817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-kick-06.png
+  artifactKey: Guid(786477ed541e275439db649d2353154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-kick-06.png using Guid(786477ed541e275439db649d2353154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9bd4fd6d1d53beef4a17dc7d46d7ca0b') in 0.042426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.085554 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-knock-dwn-01.png
+  artifactKey: Guid(77ce4d0bdd6e2fb4c82b7219336e7153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-knock-dwn-01.png using Guid(77ce4d0bdd6e2fb4c82b7219336e7153) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3c9389ffd3a34380e9fb327d464d6034') in 0.053971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-knock-dwn-04.png
+  artifactKey: Guid(a542f0b9293eb9c43a36d3a510e8be69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-knock-dwn-04.png using Guid(a542f0b9293eb9c43a36d3a510e8be69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d14758fcb15bde5defa58d53c0ddfa0') in 0.054565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-ladder-climb-00.png
+  artifactKey: Guid(da7789aea77b1cc47851fb4947bd739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-ladder-climb-00.png using Guid(da7789aea77b1cc47851fb4947bd739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82df725bb125f4f552beeb28f4aa6270') in 0.050622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-knock-dwn-06.png
+  artifactKey: Guid(a57f98b435d6b1940a4a281cff50d83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-knock-dwn-06.png using Guid(a57f98b435d6b1940a4a281cff50d83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '83d759b53418c4dfd5b51bd2ccc2e78c') in 0.051624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-ladder-climb-03.png
+  artifactKey: Guid(68bcee7d3b3bef048a654d143b704dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-ladder-climb-03.png using Guid(68bcee7d3b3bef048a654d143b704dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f27221df27f3ae46fd9858306a8a4c82') in 0.054788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-03.png
+  artifactKey: Guid(dfdf1a3cf67b05243a55dcd5c133e8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-03.png using Guid(dfdf1a3cf67b05243a55dcd5c133e8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f90b931eb0521f091e5edcb963219509') in 0.070510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-09.png
+  artifactKey: Guid(bc1c9ec9e9e52e1438da1bf7aa51a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-09.png using Guid(bc1c9ec9e9e52e1438da1bf7aa51a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd5868e42fc2500c7531cea99eff62148') in 0.058951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-ladder-climb-02.png
+  artifactKey: Guid(95f3ba168c0473a40b2ee3332273a5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-ladder-climb-02.png using Guid(95f3ba168c0473a40b2ee3332273a5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'de1518ac2c1b9019336bf203c2812c8f') in 0.067460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-05.png
+  artifactKey: Guid(5c0706db58cdacc419fda34be2907382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-05.png using Guid(5c0706db58cdacc419fda34be2907382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0e61372519007824d094da55c0ecbad') in 0.064211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-01.png
+  artifactKey: Guid(4fc3b9d547c1e9a499da9c607fbfb5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-01.png using Guid(4fc3b9d547c1e9a499da9c607fbfb5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3bd41659e47e6e93f6db385441cdd358') in 0.050822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-punch-00.png
+  artifactKey: Guid(ca9539409d689e942aeb37bb5d21819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-punch-00.png using Guid(ca9539409d689e942aeb37bb5d21819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84828926cffef500e2f0263f3e65f32f') in 0.048471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-punch-01.png
+  artifactKey: Guid(50795ecfb865c304c962dde2810ea151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-punch-01.png using Guid(50795ecfb865c304c962dde2810ea151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c5cba7c6c692c9694fe6321adad7d68f') in 0.038155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-punch-02.png
+  artifactKey: Guid(c8e89db75c0d0b34cad34a61e7c2211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-punch-02.png using Guid(c8e89db75c0d0b34cad34a61e7c2211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '25e5a2982be1731a37ed9c2409a2a0d2') in 0.042852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run2-01.png
+  artifactKey: Guid(25fb0b4000928cb43a8c24ea93fe4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run2-01.png using Guid(25fb0b4000928cb43a8c24ea93fe4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0dab33a38610b81c2134f4cc638e046c') in 0.075341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run2-05.png
+  artifactKey: Guid(9ad5017ff08880247bf77130dbfa91b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run2-05.png using Guid(9ad5017ff08880247bf77130dbfa91b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5fc489b030b2f672c730875d7cf6c214') in 0.066136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-punch-04.png
+  artifactKey: Guid(7cc1479cb352c3242af253c8a11971a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-punch-04.png using Guid(7cc1479cb352c3242af253c8a11971a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b271dc937591f290ce9bdd7b6680d471') in 0.045534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-10.png
+  artifactKey: Guid(c6639a186810e5545a511ec7cd93d863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-10.png using Guid(c6639a186810e5545a511ec7cd93d863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6e8e069a2f49c48e305a1691af75e5d8') in 0.047498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-04.png
+  artifactKey: Guid(c5a897f7740650145b6922612266ea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-04.png using Guid(c5a897f7740650145b6922612266ea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '289676a2fa7e65817bcbfd703a5ffe20') in 0.057785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-08.png
+  artifactKey: Guid(ea76edd4c40b3f2419602ade9e848266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-punch-08.png using Guid(ea76edd4c40b3f2419602ade9e848266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f50b2d15457a3515fc666e71a9f6924b') in 0.052832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-punch-03.png
+  artifactKey: Guid(fbc2145c795d33842b9314976786c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run-punch-03.png using Guid(fbc2145c795d33842b9314976786c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93bb32b34c47be04668ac8b51fa5ecf7') in 0.053245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run2-02.png
+  artifactKey: Guid(8c9fd7c5d21b2c14ea0023cd2748334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-run2-02.png using Guid(8c9fd7c5d21b2c14ea0023cd2748334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'da4529b6be317bc261bfe29980bca4fb') in 0.077734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.341100 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-get-up-06.png
+  artifactKey: Guid(cd6afba46feaef74d88fe4b85ba8ff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-get-up-06.png using Guid(cd6afba46feaef74d88fe4b85ba8ff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '935a9b8cb935355527c8332f40ac9a7a') in 0.044684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/freeknight/Colour2/Outline/120x80_PNGSheets/_SlideTransitionStart.png
+  artifactKey: Guid(94670524a0b4b5c4ea970b360bbd50f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/Outline/120x80_PNGSheets/_SlideTransitionStart.png using Guid(94670524a0b4b5c4ea970b360bbd50f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1342331bd304a83fb9da4873605cb428') in 0.053561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Art/freeknight/Colour2/NoOutline/120x80_PNGSheets/_TurnAround.png
+  artifactKey: Guid(3a4e249bb9e8e09418f2a0dd7a50881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/NoOutline/120x80_PNGSheets/_TurnAround.png using Guid(3a4e249bb9e8e09418f2a0dd7a50881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '80db9836f67ece83fcff7e6c206f6a62') in 0.052155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/freeknight/Colour2/NoOutline/120x80_PNGSheets/_AttackComboNoMovement.png
+  artifactKey: Guid(a3635d175989ce0468c78d20aa9014c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/NoOutline/120x80_PNGSheets/_AttackComboNoMovement.png using Guid(a3635d175989ce0468c78d20aa9014c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc6218f0d40587820ee74d79011a9585') in 0.052258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/freeknight/Colour2/Outline/120x80_PNGSheets/_TurnAround.png
+  artifactKey: Guid(23bba6a3f5452aa4681575b324b8b184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/Outline/120x80_PNGSheets/_TurnAround.png using Guid(23bba6a3f5452aa4681575b324b8b184) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '465ea3a6874699f655afb0982acef0a9') in 0.056576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_AttackComboNoMovement.png
+  artifactKey: Guid(3679f4cbedc4b644299a16568b8bc04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_AttackComboNoMovement.png using Guid(3679f4cbedc4b644299a16568b8bc04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a61a71e5f26886ca84f20e8abb59b23') in 0.047222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Art/freeknight/Colour1/Outline/120x80_gifs/__Attack.gif
+  artifactKey: Guid(647094d5c4a4da8458e9ad2896cf7037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/Outline/120x80_gifs/__Attack.gif using Guid(647094d5c4a4da8458e9ad2896cf7037) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '183acb1adf3864aceabe4fc62a6e5c50') in 0.055539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Art/freeknight/Colour2/Outline/120x80_gifs/__Attack.gif
+  artifactKey: Guid(bf5d75339acaadc40b47359de74b9ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/Outline/120x80_gifs/__Attack.gif using Guid(bf5d75339acaadc40b47359de74b9ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d2811ba2366172e61922a5d92052e4a') in 0.056509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Art/freeknight/Colour1/Outline/120x80_gifs/__Attack2.gif
+  artifactKey: Guid(c421db2cbdd1b8149ba02af30a07b730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/Outline/120x80_gifs/__Attack2.gif using Guid(c421db2cbdd1b8149ba02af30a07b730) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07615a89ec0a752aceeaa6dee5c71506') in 0.062344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_SlideTransitionEnd.png
+  artifactKey: Guid(32f9649faa4e374408138764e5fa58df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_SlideTransitionEnd.png using Guid(32f9649faa4e374408138764e5fa58df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '105bbd7ed4ac9e75353bcc5d69f9cf76') in 0.053138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Art/freeknight/Colour2/Outline/120x80_PNGSheets/_AttackComboNoMovement.png
+  artifactKey: Guid(837c34ee5dc30fe45a643aa1242a8a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/Outline/120x80_PNGSheets/_AttackComboNoMovement.png using Guid(837c34ee5dc30fe45a643aa1242a8a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0c7a5b7bf130c4b55f4a336bbf5d45d') in 0.053847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/freeknight/Colour2/NoOutline/120x80_gifs/__Attack2.gif
+  artifactKey: Guid(912813f2d7c21ac4d8967666f04459cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/NoOutline/120x80_gifs/__Attack2.gif using Guid(912813f2d7c21ac4d8967666f04459cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd479968097de78bb9edddaae9f7f0aea') in 0.061501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/freeknight/Colour1/Outline/120x80_PNGSheets/_AttackComboNoMovement.png
+  artifactKey: Guid(23b93a4ab1caeb248ba3f3954a0d3c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/Outline/120x80_PNGSheets/_AttackComboNoMovement.png using Guid(23b93a4ab1caeb248ba3f3954a0d3c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3047da249a4557c8359a3153186b4c6') in 0.046706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_SlideTransitionStart.png
+  artifactKey: Guid(9137c7fbb0671064aaac754fc96b23af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_PNGSheets/_SlideTransitionStart.png using Guid(9137c7fbb0671064aaac754fc96b23af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '111cb87ea1382305da352a809a22251e') in 0.046312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.625561 seconds.
+  path: Assets/Art/freeknight/Colour2/Outline/120x80_gifs/__Crouch.gif
+  artifactKey: Guid(4f814bd534bc4784595a8f5c892cb141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/Outline/120x80_gifs/__Crouch.gif using Guid(4f814bd534bc4784595a8f5c892cb141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e9fe410249e8e8991c38e58a58c32fa1') in 0.048522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/freeknight/Colour1/Outline/120x80_gifs/__CrouchAll.gif
+  artifactKey: Guid(042b10cc21ec739478c0969c282a07a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/Outline/120x80_gifs/__CrouchAll.gif using Guid(042b10cc21ec739478c0969c282a07a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '654de546582ee0de07630c73e6b35e89') in 0.055169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Art/freeknight/Colour2/NoOutline/120x80_PNGSheets/_Idle.png
+  artifactKey: Guid(aac21081ab7a0224aac709e7ad0ad0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/NoOutline/120x80_PNGSheets/_Idle.png using Guid(aac21081ab7a0224aac709e7ad0ad0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f37e0638a33d7f83ca3bef702d80056e') in 0.050337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/freeknight/Colour1/NoOutline/120x80_gifs/__CrouchAttack.gif
+  artifactKey: Guid(23befb6a5704d51458bb29e31206d184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour1/NoOutline/120x80_gifs/__CrouchAttack.gif using Guid(23befb6a5704d51458bb29e31206d184) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9045e09fcb74ec8bd1b2655461d9ecee') in 0.034723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack2-02.png
+  artifactKey: Guid(4d01065d01670c34095e4fece1d94879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack2-02.png using Guid(4d01065d01670c34095e4fece1d94879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'de7083f63e84a9674369255e0dab8be4') in 0.052666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack3-loop-00.png
+  artifactKey: Guid(b6c1c7e739fc398408ff8c529331afda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack3-loop-00.png using Guid(b6c1c7e739fc398408ff8c529331afda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ec7e6e9d5cea61e2dd30c13a484a3c34') in 0.046299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack1-00.png
+  artifactKey: Guid(bc9575ebbc3248a4399070397cfc9667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack1-00.png using Guid(bc9575ebbc3248a4399070397cfc9667) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0b889e88391a3af19907917f704405d9') in 0.044932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/arrow_01d.png
+  artifactKey: Guid(cb731ae67a9ad7b4ea953161a548a6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/arrow_01d.png using Guid(cb731ae67a9ad7b4ea953161a548a6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3530849af00a89b5836c0e4d7d4ecbc0') in 0.043626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/arrow_02a.png
+  artifactKey: Guid(f84fc6b0c2adddf42ab77d09af439c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/arrow_02a.png using Guid(f84fc6b0c2adddf42ab77d09af439c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2204dc750b5359fdf61279215d434842') in 0.059769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/arrow_02a.png
+  artifactKey: Guid(36d0630ba039117448f1fd57fde77e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/arrow_02a.png using Guid(36d0630ba039117448f1fd57fde77e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eaf5cbae366f34d7e3d5e85aeaf79033') in 0.044093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/book_04d.png
+  artifactKey: Guid(5159772b749df0f4ab0c760144467ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/book_04d.png using Guid(5159772b749df0f4ab0c760144467ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6ea3e3cd15eecd240ef120b0bf2179a7') in 0.043587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/book_04e.png
+  artifactKey: Guid(33a2ed15cdc359e4d9d4698de124d9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/book_04e.png using Guid(33a2ed15cdc359e4d9d4698de124d9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74ad1edaee3b2e937843c1e2d690b0ce') in 0.035728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/book_05b.png
+  artifactKey: Guid(f696306f265d47148929d00dadac9844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/book_05b.png using Guid(f696306f265d47148929d00dadac9844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6c57aa01b2b14c051e81fffb4b67844') in 0.048050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/book_05c.png
+  artifactKey: Guid(b6a042394b1847a43b4106a1040c2ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/book_05c.png using Guid(b6a042394b1847a43b4106a1040c2ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '81253cc669c9e269d2b6168dbe975e05') in 0.043427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/bow_02a.png
+  artifactKey: Guid(c23cdf0a67ece0e4ab3de1fc67883733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/bow_02a.png using Guid(c23cdf0a67ece0e4ab3de1fc67883733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd95a3368c006e036d28093e66347230e') in 0.040377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/bow_02a.png
+  artifactKey: Guid(541bf64c7a2b7604f8caa7fc90bde34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/bow_02a.png using Guid(541bf64c7a2b7604f8caa7fc90bde34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3abd3eb4d52392304a0955fae29e4494') in 0.061708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/bow_02cc.png
+  artifactKey: Guid(bf3706ffb0bbbc14b9858b705c93348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/bow_02cc.png using Guid(bf3706ffb0bbbc14b9858b705c93348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ebf5cde3159a5e88c9ac17ce9597838c') in 0.043491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/book_05c.png
+  artifactKey: Guid(0dbb9f5f0b8ce7c45baff77fa28e5ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/book_05c.png using Guid(0dbb9f5f0b8ce7c45baff77fa28e5ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd87149f08b6854d7ac6950fc1807b390') in 0.060140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/book_04d.png
+  artifactKey: Guid(b1a6786fb2ac6c542a3517e4c1c1574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/book_04d.png using Guid(b1a6786fb2ac6c542a3517e4c1c1574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd32f5daad6ea04b4bbc9a7d5c452a349') in 0.047571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/cotton_01a.png
+  artifactKey: Guid(c99b80feba8f3524f98d3cd3a368f6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/cotton_01a.png using Guid(c99b80feba8f3524f98d3cd3a368f6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '59db28833e4315bb6af2399f313d2813') in 0.047709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/bow_02b.png
+  artifactKey: Guid(fdc87a7cd36fafd43ae3fe4d8f81aac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/bow_02b.png using Guid(fdc87a7cd36fafd43ae3fe4d8f81aac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '53e09808dd83596e480461d57bd7a4cc') in 0.051138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/crystal_01i.png
+  artifactKey: Guid(d54662515a598fb4cb1cc4b680b3c1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/crystal_01i.png using Guid(d54662515a598fb4cb1cc4b680b3c1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '39cd89179734006ff8e8b961c2ecb5eb') in 0.049177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/crystal_01j.png
+  artifactKey: Guid(5991d48ebede36c43b7ec5382e3fc11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/crystal_01j.png using Guid(5991d48ebede36c43b7ec5382e3fc11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3567d630956519ad4d93e2ccf46aa8ed') in 0.041032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/gem_01b.png
+  artifactKey: Guid(d49b175774cb75d49a3fa2bf67e3f325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/gem_01b.png using Guid(d49b175774cb75d49a3fa2bf67e3f325) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4857166eebf1a6609e5086846ce643e7') in 0.052877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/gem_01c.png
+  artifactKey: Guid(5d2c29fae2519514d8211ef02e400dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/gem_01c.png using Guid(5d2c29fae2519514d8211ef02e400dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'af1483a28fa27a40b311a23de93438f9') in 0.050512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/gloves_01c.png
+  artifactKey: Guid(e3826f153c3c429488b5514935d8d0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/gloves_01c.png using Guid(e3826f153c3c429488b5514935d8d0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a32a3edf9e062379bf3fceeea840de7c') in 0.049201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/gloves_01d.png
+  artifactKey: Guid(cf4915484b0e9bc4c990cc82f85e522c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/gloves_01d.png using Guid(cf4915484b0e9bc4c990cc82f85e522c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b7e8b3665eb315adb44236ece0c523e2') in 0.045828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/arrow_01d.png
+  artifactKey: Guid(feca13f5128b74949a5f038a5e05cbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/arrow_01d.png using Guid(feca13f5128b74949a5f038a5e05cbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '571199c20ddd75d8f9a10496634bc45d') in 0.047534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Art/freeknight/Colour2/Outline/120x80_gifs/__CrouchAttack.gif
+  artifactKey: Guid(201ca13aeba2da94fa7564ee151afeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/Outline/120x80_gifs/__CrouchAttack.gif using Guid(201ca13aeba2da94fa7564ee151afeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '50cc238adaf498863e46f2f9f63bc819') in 0.042821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/ingot_01b.png
+  artifactKey: Guid(d7a821858b3e0ca4d8c02e4804cbbf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/ingot_01b.png using Guid(d7a821858b3e0ca4d8c02e4804cbbf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '62648c7e5a3b2d6b743506ec9bf774c7') in 0.054278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/ingot_01b.png
+  artifactKey: Guid(d7f5bbf9bba7e1843b4b031c81a112da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/ingot_01b.png using Guid(d7f5bbf9bba7e1843b4b031c81a112da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '19ab303c183c230497db6a60460809c8') in 0.044427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/gem_01c.png
+  artifactKey: Guid(879926c65a95c3f4e9a2930ba6a2a4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/gem_01c.png using Guid(879926c65a95c3f4e9a2930ba6a2a4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '27c6ea8538bf5000a0f05a127e1e3666') in 0.042901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/ingot_01a.png
+  artifactKey: Guid(75621a910664b9849bc1b014362a7673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/ingot_01a.png using Guid(75621a910664b9849bc1b014362a7673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1a6a987b4523ef2224fd3039d0d76161') in 0.052673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/book_04f.png
+  artifactKey: Guid(6d187bb96600bfe419ddd8247107f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/book_04f.png using Guid(6d187bb96600bfe419ddd8247107f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b4d64bbc0c6e3ecd84a6fd412bc433c1') in 0.050125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/shard_01f.png
+  artifactKey: Guid(b5edb159c52385c45a62d3e2192fb061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/shard_01f.png using Guid(b5edb159c52385c45a62d3e2192fb061) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc92d273768e1190140f70746a376fd4') in 0.052404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Audio/SFX/Cover.png
+  artifactKey: Guid(210b5b0fd4e6ff644bb07190e25b29e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Cover.png using Guid(210b5b0fd4e6ff644bb07190e25b29e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3b0d7805ddf9e669db8e370c3241b39f') in 0.077764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_03a.png
+  artifactKey: Guid(8c31ad8ebc362b14590b16867c29a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_03a.png using Guid(8c31ad8ebc362b14590b16867c29a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f976a1604379dff95de463509c6cca55') in 0.046636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/shard_01e.png
+  artifactKey: Guid(ea256a8bb0008a846b8abfa9e6fde02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/shard_01e.png using Guid(ea256a8bb0008a846b8abfa9e6fde02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '984725c242f8bb27ab8241ae778d39f3') in 0.047396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack1-02.png
+  artifactKey: Guid(c869ae8164aa02b418d705426f250edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack1-02.png using Guid(c869ae8164aa02b418d705426f250edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '42a158adb2446ee22ca942c4b5645ef9') in 0.055668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/necklace_03b.png
+  artifactKey: Guid(7ee8bf1840ea1bc45ae382de9ad7f65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/necklace_03b.png using Guid(7ee8bf1840ea1bc45ae382de9ad7f65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bf72720942153bece609e31a7ade8a4a') in 0.051221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/sword_02e.png
+  artifactKey: Guid(cbd51570d50c13547a5cc25489e0447d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/sword_02e.png using Guid(cbd51570d50c13547a5cc25489e0447d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'da28d249dcdfb85dd8a60cba5c1c1af1') in 0.042154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/shard_01f.png
+  artifactKey: Guid(26ba327281f4fc6479266a81a5aba877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/shard_01f.png using Guid(26ba327281f4fc6479266a81a5aba877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '49b6f19a4b0f984030233b2147b97934') in 0.046518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/necklace_03b.png
+  artifactKey: Guid(1e6555886bbca1344834d15e69cb721a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/necklace_03b.png using Guid(1e6555886bbca1344834d15e69cb721a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '688009782bfc53f1203dd2b7e959b6e8') in 0.039308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/ingot_01a.png
+  artifactKey: Guid(a28d8a535fa42bf48b4461f1dc686fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/ingot_01a.png using Guid(a28d8a535fa42bf48b4461f1dc686fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bd5256745393dddd29ff6f8c0d32df1d') in 0.058692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/crystal_01i.png
+  artifactKey: Guid(d6e5eefe4132ef7458831dc125bebad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/crystal_01i.png using Guid(d6e5eefe4132ef7458831dc125bebad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '00ae86984b285a42c191e02eb57f62fd') in 0.047728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/arrow_01e.png
+  artifactKey: Guid(45339d071eddd8c4a9a94dd4daec40c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/arrow_01e.png using Guid(45339d071eddd8c4a9a94dd4daec40c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35fa2ef553b88ffc0267049270dcbd4b') in 0.047540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/book_05a.png
+  artifactKey: Guid(d63198494f637ee4cae7c7c7848f02b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/book_05a.png using Guid(d63198494f637ee4cae7c7c7848f02b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '44f8d7d7b4fd66ba8fb05a7d41753b96') in 0.057272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack-3-end-02.png
+  artifactKey: Guid(4c8dbf3bd03ea3f41b2b5bcf4a8284e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack-3-end-02.png using Guid(4c8dbf3bd03ea3f41b2b5bcf4a8284e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '784fd6d81bd5284644a51dcde10c3044') in 0.045944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/sword_02c.png
+  artifactKey: Guid(b4048e4ba6f466946afb680369070318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/sword_02c.png using Guid(b4048e4ba6f466946afb680369070318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cbd94a812a7fc0240b1baed8776c26f4') in 0.047638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/cotton_01a.png
+  artifactKey: Guid(43c5bf4b0bce9eb469abd83ee6af4b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/cotton_01a.png using Guid(43c5bf4b0bce9eb469abd83ee6af4b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9ec45e072688e197b50527d456944cfb') in 0.046653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/sword_02b.png
+  artifactKey: Guid(600958481befc694291e8309d5ab223a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/sword_02b.png using Guid(600958481befc694291e8309d5ab223a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '47d711ff547f43edb6791ee0de237b62') in 0.050078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/sword_02a.png
+  artifactKey: Guid(2bdaf875db592ce4ab3086872dca7568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/sword_02a.png using Guid(2bdaf875db592ce4ab3086872dca7568) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9859f9b31cdf827b67f7dfc004143cdd') in 0.049689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_02d.png
+  artifactKey: Guid(c895f0664bf72d94bbd08406a494885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_02d.png using Guid(c895f0664bf72d94bbd08406a494885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c476fd9a2d003baf967a667f235f5f5a') in 0.043152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_01e.png
+  artifactKey: Guid(32b9140bb5b53954184d21c23ac08681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_01e.png using Guid(32b9140bb5b53954184d21c23ac08681) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '447217a6d11f4698d011f8f248abb791') in 0.049408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/sword_01e.png
+  artifactKey: Guid(3d43c39ee38113348b753cb23ea5c775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/sword_01e.png using Guid(3d43c39ee38113348b753cb23ea5c775) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bf2014129540ac3e7df6e59ccd036252') in 0.056929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_02e.png
+  artifactKey: Guid(348bb188cceb30e4aa9108c22cdce469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_02e.png using Guid(348bb188cceb30e4aa9108c22cdce469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eca5b2a83a666aa0f2e3f944657b34e3') in 0.051473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_02c.png
+  artifactKey: Guid(e9a17359e31bb6240bb925e321328c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_02c.png using Guid(e9a17359e31bb6240bb925e321328c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8967d22a35b37dbfc0d4334e2e3e19a2') in 0.046921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/freeknight/Colour2/Outline/120x80_gifs/__CrouchAll.gif
+  artifactKey: Guid(cd0a5afd0a28ae5458333803a34da794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/Outline/120x80_gifs/__CrouchAll.gif using Guid(cd0a5afd0a28ae5458333803a34da794) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89b8ef3bbf7894ea06b8a2923c769b29') in 0.050235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/necklace_03c.png
+  artifactKey: Guid(ae82da072f5df3848be3c1e53133453b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/necklace_03c.png using Guid(ae82da072f5df3848be3c1e53133453b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ced24d40bb19f24644e2288c2b39156a') in 0.047266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/gloves_01c.png
+  artifactKey: Guid(a0ea1acaf19fa1e4d9b70117e4a090a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/gloves_01c.png using Guid(a0ea1acaf19fa1e4d9b70117e4a090a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '330626a7419da833528b900f65e07de0') in 0.054895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/gloves_01e.png
+  artifactKey: Guid(fb8daf71bc34421448f1b2afa1abd95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/gloves_01e.png using Guid(fb8daf71bc34421448f1b2afa1abd95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5d792cf93b12df86ae179a1ba1065a2e') in 0.049109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/necklace_03d.png
+  artifactKey: Guid(218aaf57e81bc7d418ca9c1ddffb8562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/necklace_03d.png using Guid(218aaf57e81bc7d418ca9c1ddffb8562) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '64ca00cf81eb11ff07e8fb2b3f86d1e2') in 0.044448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/48x48/crystal_01j.png
+  artifactKey: Guid(1f9ad1c18e414a94eb318cf577eb82bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/48x48/crystal_01j.png using Guid(1f9ad1c18e414a94eb318cf577eb82bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a95008a84cf94248ca4f8fdec3a0f102') in 0.051296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_02a.png
+  artifactKey: Guid(ed9ce55fc9c0cc048847240945c49ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/sword_02a.png using Guid(ed9ce55fc9c0cc048847240945c49ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dd239f9e7b483d8d92f1466bc024e7df') in 0.051336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/crystal_01a.png
+  artifactKey: Guid(f077000e5ae8da74da2ae6c41f605311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/crystal_01a.png using Guid(f077000e5ae8da74da2ae6c41f605311) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3ad6ca577d29f1b6f09dacfbf6721e34') in 0.042996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/bow_01e.png
+  artifactKey: Guid(206d0b0bc4a4465408d28e294bd55431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/bow_01e.png using Guid(206d0b0bc4a4465408d28e294bd55431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b4bf75b9abe65ad3343e9573ddf0f37f') in 0.052082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/ingot_01c.png
+  artifactKey: Guid(95d175305b3ed304c9dd563b3470ce9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/ingot_01c.png using Guid(95d175305b3ed304c9dd563b3470ce9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e96a109393ee4e5b3fc59f2bfb40041b') in 0.045123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/arrow_02a.png
+  artifactKey: Guid(ba093a46cc5beac4a91566bfd519ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/arrow_02a.png using Guid(ba093a46cc5beac4a91566bfd519ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f8a136d399fe1c1631ebc4edc8e3c507') in 0.064398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/16x16/shard_01f.png
+  artifactKey: Guid(f387bfd293a0d7a49b10b72bd9b2c85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/16x16/shard_01f.png using Guid(f387bfd293a0d7a49b10b72bd9b2c85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '42b5b1f35ba2818e1f0d0c816c67a77a') in 0.043108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/freeknight/Colour2/Outline/120x80_PNGSheets/_Idle.png
+  artifactKey: Guid(4daad51b920cf0043b19c4c987ec9fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/freeknight/Colour2/Outline/120x80_PNGSheets/_Idle.png using Guid(4daad51b920cf0043b19c4c987ec9fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '12287cce5df0f6159560b3555b704313') in 0.041457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack2-01.png
+  artifactKey: Guid(59ac20e3887d53043b26e6a4fcc728e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rvros-adventurer/Individual Sprites/adventurer-air-attack2-01.png using Guid(59ac20e3887d53043b26e6a4fcc728e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'df6df0f4f80d704b3d474771f8c969f8') in 0.050035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Art/kyrises-rpg-icon-pack/icons/32x32/ingot_01a.png
+  artifactKey: Guid(b9bcbe80ffb45e74893cceef47c6dc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/kyrises-rpg-icon-pack/icons/32x32/ingot_01a.png using Guid(b9bcbe80ffb45e74893cceef47c6dc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cbf563cc9d5158eebfc9bd6e92b684bb') in 0.052876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.567860 seconds.
+  path: Assets/Art/luizmelo_Monsters_Creatures_Fantasy/Goblin/Take Hit.png
+  artifactKey: Guid(38d534f0bc6d85a4f826c59e6bae2f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/luizmelo_Monsters_Creatures_Fantasy/Goblin/Take Hit.png using Guid(38d534f0bc6d85a4f826c59e6bae2f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a6f48332471652f042fe3c5209465b24') in 0.041887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/luizmelo_Monsters_Creatures_Fantasy/Skeleton/Take Hit.png
+  artifactKey: Guid(56240711695836a4ea7318fc77cc7117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/luizmelo_Monsters_Creatures_Fantasy/Skeleton/Take Hit.png using Guid(56240711695836a4ea7318fc77cc7117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f1f2c82ca08633cbd5780d30cbc5e77') in 0.050994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Art/henrysoftware-freepixelfood/Sprite/Food.png
+  artifactKey: Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/henrysoftware-freepixelfood/Sprite/Food.png using Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0679263c12e7587cc8767f61960d52bb') in 0.375981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 2.649285 seconds.
+  path: Assets/Art/Hero Knight - Pixel Art/Sprites/HeroKnight_BlockNoEffect.png
+  artifactKey: Guid(d94b5c1ffa7794547b59105c8f561da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Hero Knight - Pixel Art/Sprites/HeroKnight_BlockNoEffect.png using Guid(d94b5c1ffa7794547b59105c8f561da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82df01a9901051379751ad89c15e6c0e') in 0.074825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 9.615569 seconds.
+  path: Assets/Art/henrysoftware-freepixelfood/Sprite/Food/Cherry.png
+  artifactKey: Guid(bf7bb96fa1c415b4fb03ff227c934adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/henrysoftware-freepixelfood/Sprite/Food/Cherry.png using Guid(bf7bb96fa1c415b4fb03ff227c934adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'acc770fbbb84a161d410d054db4d1445') in 0.048863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
