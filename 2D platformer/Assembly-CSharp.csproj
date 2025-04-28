@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\ParallexEffect.cs" />
     <Compile Include="Assets\Scripts\Events\CharacterEvents.cs" />
     <Compile Include="Assets\Scripts\TouchingDirections.cs" />
+    <Compile Include="Assets\selectedSkinPlay.cs" />
     <Compile Include="Assets\Art\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\Scripts\DetectionZone.cs" />
   </ItemGroup>

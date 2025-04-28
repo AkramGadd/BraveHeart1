@@ -414,6 +414,7 @@
 "Assets/Scripts/StateMachine/SetBoolBehaviour.cs"
 "Assets/Scripts/TouchingDirections.cs"
 "Assets/Scripts/UIManager.cs"
+"Assets/selectedSkinPlay.cs"
 -langversion:9.0
 /deterministic
 /optimize+
