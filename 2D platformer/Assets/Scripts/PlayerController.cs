@@ -138,7 +138,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
     }
 
-    public void OnMove(InputAction.CallbackContext context) 
+/*    public void OnMove(InputAction.CallbackContext context) 
     {
         moveInput = context.ReadValue<Vector2>();
 
@@ -152,7 +152,7 @@ public class PlayerController : MonoBehaviour
         {
             IsMoving = false;
         } 
-    }
+    }*/
 
     private void SetFacingDirection(Vector2 moveInput)
     {
@@ -179,23 +179,44 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void OnJump(InputAction.CallbackContext context)
+    public void OnJump()
     {
         //check if alive aswell
-        if (context.started && touchingDirections.IsGrounded && CanMove)
+        if (touchingDirections.IsGrounded && CanMove && IsAlive)
         {
             animator.SetTrigger(AnimationStrings.jumpTrigger);
             rb.velocity = new Vector2(rb.velocity.x, jumpImpulse);
         }
     }
 
-    public void OnAttack(InputAction.CallbackContext context)
+    public void OnAttack()
     {
-        if (context.started)
+        if (IsAlive)
         {
             animator.SetTrigger(AnimationStrings.attackTrigger);
         }
     }
+
+    public void StartMoveLeft()
+    {
+        moveInput = Vector2.left;
+        IsMoving = true;
+        SetFacingDirection(moveInput);
+    }
+
+    public void StartMoveRight()
+    {
+        moveInput = Vector2.right;
+        IsMoving = true;
+        SetFacingDirection(moveInput);
+    }
+
+    public void StopMove()
+    {
+        moveInput = Vector2.zero;
+        IsMoving = false;
+    }
+
 
     public void OnHit(int damage, Vector2 knockback)
     {

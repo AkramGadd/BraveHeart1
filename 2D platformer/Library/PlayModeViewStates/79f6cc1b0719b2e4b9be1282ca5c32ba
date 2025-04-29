@@ -23,7 +23,7 @@ MonoBehaviour:
     x: 204.8
     y: 80.8
     width: 770.80005
-    height: 400.6
+    height: 339.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -58,7 +58,7 @@ MonoBehaviour:
     pluginStates:
     - '{}'
     - '{}'
-    scale: 26
+    scale: 22
     fitToScreenEnabled: 1
     rotationDegree: 270
     highlightSafeAreaEnabled: 0
