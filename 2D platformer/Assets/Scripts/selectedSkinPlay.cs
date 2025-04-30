@@ -6,7 +6,8 @@ public class selectedSkinPlay : MonoBehaviour
 {
     public GameObject player1;
     public GameObject player2;
-    
+    public static GameObject selectedPlayerPrefab;
+
 
     // Start is called before the first frame update
     void Start()
@@ -14,13 +15,17 @@ public class selectedSkinPlay : MonoBehaviour
         int selectedSkin = PlayerPrefs.GetInt("SelectedSkinIndex", 0);
         if(selectedSkin == 0)
         {
+            selectedPlayerPrefab = player1;
             player1.SetActive(true);
             player2.SetActive(false);
         }
         else
         {
+            selectedPlayerPrefab = player2;
             player1.SetActive(false); player2.SetActive(true);
         }
+        selectedPlayerPrefab.name = "Player";
+        DontDestroyOnLoad(selectedPlayerPrefab);
     }
     
 

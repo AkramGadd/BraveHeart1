@@ -4,8 +4,10 @@ using UnityEngine;
 using TMPro;
 public class Timer : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI timerText;
-    float elapsedTime;
+    [SerializeField] private TextMeshProUGUI timerText;
+    float elapsedTime = 0f;
+    bool isRunning = true;
+
     void Start()
     {
 
@@ -14,9 +16,33 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        elapsedTime += Time.deltaTime;
-        int minuites = Mathf.FloorToInt(elapsedTime / 60);
-        int second = Mathf.FloorToInt(elapsedTime % 60);
-        timerText.text = string.Format("{0:00} : {1:00}", minuites, second);
+        if (isRunning)
+        {
+            elapsedTime += Time.deltaTime;
+            int minutes = Mathf.FloorToInt(elapsedTime / 60);
+            int seconds = Mathf.FloorToInt(elapsedTime % 60);
+            timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        }
+    }
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
+    public void StartTimer()
+    {
+        elapsedTime = 0f;
+        isRunning = true;
+    }
+
+    public void StopTimer()
+    {
+        isRunning = false;
+    }
+
+    public float GetElapsedTime()
+    {
+        return elapsedTime;
     }
 }

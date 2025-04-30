@@ -14,6 +14,12 @@ public class UIManager : MonoBehaviour
         gameCanvas = FindObjectOfType<Canvas>();
     }
 
+    void Start()
+    {
+        FindObjectOfType<Timer>()?.StartTimer();
+    }
+
+
     private void OnEnable()
     {
         CharacterEvents.characterDamaged += CharacterTakesDamage;
