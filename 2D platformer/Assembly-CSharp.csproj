@@ -72,6 +72,7 @@
     <Compile Include="Assets\RestClient\Packages\RSG.Promise\EnumerableExt.cs" />
     <Compile Include="Assets\Scripts\FadeRemoveBehaviour.cs" />
     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Promise_NonGeneric.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\Damageable.cs" />
     <Compile Include="Assets\RestClient\DemoScene\Scripts\Model\Todo.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Assets\Scripts\Events\CharacterEvents.cs" />
     <Compile Include="Assets\Scripts\TouchingDirections.cs" />
     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Promise.cs" />
+    <Compile Include="Assets\Scripts\SceneLoad.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\Extensions.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\ExecuteOnMainThread.cs" />
     <Compile Include="Assets\RestClient\Packages\RSG.Promise\PromiseHelpers.cs" />

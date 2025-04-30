@@ -179,6 +179,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void StartRunning()
+    {
+        IsRunning = true;
+    }
+
+    public void StopRunning()
+    {
+        IsRunning = false;
+    }
+
     public void OnJump()
     {
         //check if alive aswell

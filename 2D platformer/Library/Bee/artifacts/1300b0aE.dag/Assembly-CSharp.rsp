@@ -438,10 +438,12 @@
 "Assets/Scripts/NetworkManager.cs"
 "Assets/Scripts/ParallexEffect.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/SceneLoad.cs"
 "Assets/Scripts/selectedSkinPlay.cs"
 "Assets/Scripts/SetFloatBehaviour.cs"
 "Assets/Scripts/SkinManager.cs"
 "Assets/Scripts/StateMachine/SetBoolBehaviour.cs"
+"Assets/Scripts/Timer.cs"
 "Assets/Scripts/TouchingDirections.cs"
 "Assets/Scripts/UIManager.cs"
 -langversion:9.0
