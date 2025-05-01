@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\StateMachine\SetBoolBehaviour.cs" />
     <Compile Include="Assets\SceneTeleport.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestException.cs" />
+    <Compile Include="Assets\Scripts\Overlays.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\RestClientPromise.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestHelperExtension.cs" />
     <Compile Include="Assets\Art\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />

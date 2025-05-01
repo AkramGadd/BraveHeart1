@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Assets.Scripts; // <-- This fixes the missing reference
+
 
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections), typeof(Damageable))]
 
@@ -15,6 +17,14 @@ public class PlayerController : MonoBehaviour
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     Damageable damageable;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        touchingDirections = GetComponent<TouchingDirections>();
+        damageable = GetComponent<Damageable>();
+    }
 
     public float CurrentMoveSpeed { get
         {
@@ -110,13 +120,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        touchingDirections = GetComponent<TouchingDirections>();
-        damageable = GetComponent<Damageable>();
-    }
+    
 
     // Start is called before the first frame update
     void Start()
@@ -231,5 +235,20 @@ public class PlayerController : MonoBehaviour
     public void OnHit(int damage, Vector2 knockback)
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
+
+        if (damageable.Health <= 0)
+        {
+            animator.SetBool(AnimationStrings.isAlive, false); // ? TRIGGER DEATH
+            damageable.LockVelocity = true; // optional: stop sliding
+            Overlays loader = FindObjectOfType<Overlays>();
+            if (loader != null)
+            {
+                loader.gameOver();
+            }
+            else
+            {
+                Debug.LogWarning("SceneLoader not found in the scene.");
+            }
+        }
     }
 }

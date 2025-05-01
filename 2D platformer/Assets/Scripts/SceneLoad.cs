@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class SceneLoader : MonoBehaviour
 {
@@ -21,12 +22,5 @@ public class SceneLoader : MonoBehaviour
     public void LoadStart()
     {
         SceneManager.LoadScene("StartingScene");
-    }
-
-    public GameObject gameOverUI;
-
-    public void gameOver()
-    {
-        gameOverUI.SetActive(true);
     }
 }

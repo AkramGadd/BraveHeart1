@@ -1,4 +1,5 @@
 using UnityEngine;
+using Assets.Scripts; // <-- This fixes the missing reference
 
 public class Boss : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class Boss : MonoBehaviour
             FindObjectOfType<Timer>().StopTimer();
             timerStopped = true;
             NetworkManager.Instance.UpdateScoreIfBetter(finalTime);
+            Overlays loader = FindObjectOfType<Overlays>();
+            loader.LevelFinished();
         }
     }
 }

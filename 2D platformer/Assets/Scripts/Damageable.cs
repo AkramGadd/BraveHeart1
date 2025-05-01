@@ -58,19 +58,9 @@ public class Damageable : MonoBehaviour
         {
             _health = value;
 
-            if (_health <= 0)
+            if (_health <= 0 && !IsAlive)
             {
                 IsAlive = false;
-
-                SceneLoader loader = FindObjectOfType<SceneLoader>();
-                if (loader != null)
-                {
-                    loader.gameOver();
-                }
-                else
-                {
-                    Debug.LogWarning("SceneLoader not found in the scene.");
-                }
             }
         }
     }

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -122,9 +122,17 @@ public class Knight : MonoBehaviour
         }
     }
 
+
     public void OnHit(int damage, Vector2 knockback)
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
+        animator.SetTrigger(AnimationStrings.hitTrigger);
+
+        if (damageable.Health <= 0)
+        {
+            animator.SetBool(AnimationStrings.isAlive, false); // ← TRIGGER DEATH
+            damageable.LockVelocity = true; // optional: stop sliding
+        }
     }
 
     public void OnCliffDetected()

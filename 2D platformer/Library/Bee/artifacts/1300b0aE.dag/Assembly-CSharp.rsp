@@ -438,6 +438,7 @@
 "Assets/Scripts/HealthText.cs"
 "Assets/Scripts/Knight.cs"
 "Assets/Scripts/NetworkManager.cs"
+"Assets/Scripts/Overlays.cs"
 "Assets/Scripts/ParallexEffect.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SceneLoad.cs"
