@@ -60,6 +60,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.59f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MusicPlayer.cs" />
     <Compile Include="Assets\RestClient\DemoScene\Scripts\Model\Post.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\StaticCoroutine.cs" />
     <Compile Include="Assets\Scripts\NetworkManager.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\GUI PRO Kit - Fantasy RPG\Scripts\PanelControlFantasyRPG.cs" />
     <Compile Include="Assets\Art\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\RestClient\Packages\RSG.Promise\EnumerableExt.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\PlayOneShotBehaviour.cs" />
     <Compile Include="Assets\Scripts\FadeRemoveBehaviour.cs" />
     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Promise_NonGeneric.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
