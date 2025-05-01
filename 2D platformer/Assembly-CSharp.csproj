@@ -102,6 +102,7 @@
     <Compile Include="Assets\RestClient\DemoScene\Scripts\Model\User.cs" />
     <Compile Include="Assets\Art\Hero Knight - Pixel Art\Demo\HeroKnight.cs" />
     <Compile Include="Assets\Scripts\AnimationStrings.cs" />
+    <Compile Include="Assets\HealthBar.cs" />
     <Compile Include="Assets\Scripts\ParallexEffect.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\HttpBase.cs" />
     <Compile Include="Assets\Scripts\Events\CharacterEvents.cs" />

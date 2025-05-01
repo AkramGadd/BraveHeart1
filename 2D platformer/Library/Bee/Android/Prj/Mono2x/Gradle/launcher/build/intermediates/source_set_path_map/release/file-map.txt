@@ -1,0 +1,9 @@
+com.akramgad.platformer.launcher-pngs-0 C:\Users\victory tech\Desktop\Mobile App\2D platformer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\pngs\release
+com.akramgad.platformer.launcher-resValues-1 C:\Users\victory tech\Desktop\Mobile App\2D platformer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\resValues\release
+com.akramgad.platformer.launcher-rs-2 C:\Users\victory tech\Desktop\Mobile App\2D platformer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\rs\release
+com.akramgad.platformer.launcher-mergeReleaseResources-3 C:\Users\victory tech\Desktop\Mobile App\2D platformer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.akramgad.platformer.launcher-mergeReleaseResources-4 C:\Users\victory tech\Desktop\Mobile App\2D platformer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.akramgad.platformer.launcher-merged_res-5 C:\Users\victory tech\Desktop\Mobile App\2D platformer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\merged_res\release
+com.akramgad.platformer.launcher-main-6 C:\Users\victory tech\Desktop\Mobile App\2D platformer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\res
+com.akramgad.platformer.launcher-release-7 C:\Users\victory tech\Desktop\Mobile App\2D platformer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\release\res
+com.akramgad.platformer.launcher-packaged_res-8 C:\Users\victory tech\Desktop\Mobile App\2D platformer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\packaged_res\release

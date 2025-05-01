@@ -401,6 +401,7 @@
 "Assets/GUI PRO Kit - Fantasy RPG/Extensions/UIParticle/UIParticleSystem.cs"
 "Assets/GUI PRO Kit - Fantasy RPG/Scripts/PanelControlFantasyRPG.cs"
 "Assets/GUI PRO Kit - Fantasy RPG/Scripts/PanelFantasyRPG.cs"
+"Assets/HealthBar.cs"
 "Assets/RestClient/DemoScene/Scripts/MainScript.cs"
 "Assets/RestClient/DemoScene/Scripts/Model/Photo.cs"
 "Assets/RestClient/DemoScene/Scripts/Model/Post.cs"
