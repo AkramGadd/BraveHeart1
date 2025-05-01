@@ -17,4 +17,16 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("PlayerSelection");
     }
+    
+    public void LoadStart()
+    {
+        SceneManager.LoadScene("StartingScene");
+    }
+
+    public GameObject gameOverUI;
+
+    public void gameOver()
+    {
+        gameOverUI.SetActive(true);
+    }
 }
