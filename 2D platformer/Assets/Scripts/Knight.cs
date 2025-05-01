@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +7,7 @@ using UnityEngine;
 public class Knight : MonoBehaviour
 {
     public float walkSpeed = 3f;
+    public float maxSpeed = 3f;
     public float walkStopRate = 0.05f;
     public DetectionZone attackZone;
     public DetectionZone cliffDetection;
@@ -97,7 +98,7 @@ public class Knight : MonoBehaviour
         {
             if (CanMove)
             {
-                rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
+                rb.velocity = new Vector2(Mathf.Clamp(rb.velocity.x + (walkSpeed * walkDirectionVector.x * Time.fixedDeltaTime), -maxSpeed, maxSpeed), rb.velocity.y);
             }
             else
             {
@@ -121,9 +122,17 @@ public class Knight : MonoBehaviour
         }
     }
 
+
     public void OnHit(int damage, Vector2 knockback)
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
+        animator.SetTrigger(AnimationStrings.hitTrigger);
+
+        if (damageable.Health <= 0)
+        {
+            animator.SetBool(AnimationStrings.isAlive, false); // ← TRIGGER DEATH
+            damageable.LockVelocity = true; // optional: stop sliding
+        }
     }
 
     public void OnCliffDetected()

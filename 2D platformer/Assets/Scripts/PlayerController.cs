@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Assets.Scripts; // <-- This fixes the missing reference
+
 
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections), typeof(Damageable))]
 
@@ -15,6 +17,14 @@ public class PlayerController : MonoBehaviour
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     Damageable damageable;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        touchingDirections = GetComponent<TouchingDirections>();
+        damageable = GetComponent<Damageable>();
+    }
 
     public float CurrentMoveSpeed { get
         {
@@ -110,13 +120,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        touchingDirections = GetComponent<TouchingDirections>();
-        damageable = GetComponent<Damageable>();
-    }
+    
 
     // Start is called before the first frame update
     void Start()
@@ -138,7 +142,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
     }
 
-    public void OnMove(InputAction.CallbackContext context) 
+/*    public void OnMove(InputAction.CallbackContext context) 
     {
         moveInput = context.ReadValue<Vector2>();
 
@@ -152,7 +156,7 @@ public class PlayerController : MonoBehaviour
         {
             IsMoving = false;
         } 
-    }
+    }*/
 
     private void SetFacingDirection(Vector2 moveInput)
     {
@@ -179,26 +183,72 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void OnJump(InputAction.CallbackContext context)
+    public void StartRunning()
+    {
+        IsRunning = true;
+    }
+
+    public void StopRunning()
+    {
+        IsRunning = false;
+    }
+
+    public void OnJump()
     {
         //check if alive aswell
-        if (context.started && touchingDirections.IsGrounded && CanMove)
+        if (touchingDirections.IsGrounded && CanMove && IsAlive)
         {
             animator.SetTrigger(AnimationStrings.jumpTrigger);
             rb.velocity = new Vector2(rb.velocity.x, jumpImpulse);
         }
     }
 
-    public void OnAttack(InputAction.CallbackContext context)
+    public void OnAttack()
     {
-        if (context.started)
+        if (IsAlive)
         {
             animator.SetTrigger(AnimationStrings.attackTrigger);
         }
     }
 
+    public void StartMoveLeft()
+    {
+        moveInput = Vector2.left;
+        IsMoving = true;
+        SetFacingDirection(moveInput);
+    }
+
+    public void StartMoveRight()
+    {
+        moveInput = Vector2.right;
+        IsMoving = true;
+        SetFacingDirection(moveInput);
+    }
+
+    public void StopMove()
+    {
+        moveInput = Vector2.zero;
+        IsMoving = false;
+    }
+
+
     public void OnHit(int damage, Vector2 knockback)
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
+
+        if (damageable.Health <= 0)
+        {
+            animator.SetBool(AnimationStrings.isAlive, false); // ? TRIGGER DEATH
+            damageable.LockVelocity = true; // optional: stop sliding
+            Overlays loader = FindObjectOfType<Overlays>();
+            if (loader != null)
+            {
+                loader.gameOver();
+            }
+            else
+            {
+                Debug.LogWarning("SceneLoader not found in the scene.");
+            }
+        }
     }
 }
