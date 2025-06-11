@@ -66,6 +66,7 @@
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\StaticCoroutine.cs" />
     <Compile Include="Assets\Scripts\General scripts\Attack.cs" />
     <Compile Include="Assets\Scripts\Background and overlays\NetworkManager.cs" />
+    <Compile Include="Assets\Scripts\Player scripts\SpeedPowerUps.cs" />
     <Compile Include="Assets\Scripts\General scripts\SetFloatBehaviour.cs" />
     <Compile Include="Assets\GUI PRO Kit - Fantasy RPG\Extensions\UIParticle\UIParticleSystem.cs" />
     <Compile Include="Assets\Scripts\General scripts\TouchingDirections.cs" />
@@ -75,7 +76,6 @@
     <Compile Include="Assets\GUI PRO Kit - Fantasy RPG\Scripts\PanelControlFantasyRPG.cs" />
     <Compile Include="Assets\Art\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\RestClient\Packages\RSG.Promise\EnumerableExt.cs" />
-    <Compile Include="Assets\Scripts\Player scripts\PowerUps.cs" />
     <Compile Include="Assets\Scripts\StateMachine\PlayOneShotBehaviour.cs" />
     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Promise_NonGeneric.cs" />
     <Compile Include="Assets\Scripts\General scripts\Damageable.cs" />
@@ -106,6 +106,7 @@
     <Compile Include="Assets\HealthBar.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\HttpBase.cs" />
     <Compile Include="Assets\Scripts\Events\CharacterEvents.cs" />
+    <Compile Include="Assets\Scripts\Player scripts\JumpPowerUp.cs" />
     <Compile Include="Assets\RestClient\Packages\RSG.Promise\Promise.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\Extensions.cs" />
     <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\ExecuteOnMainThread.cs" />

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Assets.Scripts; // <-- This fixes the missing reference
+using Assets.Scripts;
 
 
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections), typeof(Damageable))]
@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     Damageable damageable;
     public float speedBoostMultiplier = 1f;
     private Coroutine speedBoostCoroutine;
+    public float jumpBoostMultiplier = 1f;
+    private Coroutine jumpBoostCoroutine;
 
     private void Awake()
     {
@@ -203,7 +205,7 @@ public class PlayerController : MonoBehaviour
         if (touchingDirections.IsGrounded && CanMove && IsAlive)
         {
             animator.SetTrigger(AnimationStrings.jumpTrigger);
-            rb.velocity = new Vector2(rb.velocity.x, jumpImpulse);
+            rb.velocity = new Vector2(rb.velocity.x, CurrentJumpImpulse);
         }
     }
 
@@ -242,8 +244,8 @@ public class PlayerController : MonoBehaviour
 
         if (damageable.Health <= 0)
         {
-            animator.SetBool(AnimationStrings.isAlive, false); // ? TRIGGER DEATH
-            damageable.LockVelocity = true; // optional: stop sliding
+            animator.SetBool(AnimationStrings.isAlive, false);
+            damageable.LockVelocity = true;
             Overlays loader = FindObjectOfType<Overlays>();
             if (loader != null)
             {
@@ -256,7 +258,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void ApplyPowerUp(PowerUps powerUp)
+    public void ApplySpeedPowerUp(PowerUps powerUp)
     {
         if (speedBoostCoroutine != null)
         {
@@ -278,5 +280,36 @@ public class PlayerController : MonoBehaviour
         speedBoostCoroutine = null;
 
         Debug.Log("Speed boost ended!");
+    }
+
+    public float CurrentJumpImpulse
+    {
+        get
+        {
+            return jumpImpulse * jumpBoostMultiplier;
+        }
+    }
+
+    public void ApplyJumpPowerUp(JumpPowerUp powerUp)
+    {
+        if (jumpBoostCoroutine != null)
+        {
+            StopCoroutine(jumpBoostCoroutine);
+        }
+        jumpBoostCoroutine = StartCoroutine(StrengthBoostCoroutine(powerUp.jumpBoost, powerUp.duration));
+    }
+
+    private IEnumerator StrengthBoostCoroutine(float boostAmount, float duration)
+    {
+        float originalMultiplier = jumpBoostMultiplier;
+        jumpBoostMultiplier = (jumpImpulse + boostAmount) / jumpImpulse;
+
+        Debug.Log($"Strength boost activated! Jump multiplier: {jumpBoostMultiplier}x for {duration} seconds");
+        yield return new WaitForSeconds(duration);
+
+        jumpBoostMultiplier = originalMultiplier;
+        jumpBoostCoroutine = null;
+
+        Debug.Log("Strength boost ended!");
     }
 }
